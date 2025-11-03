@@ -5,27 +5,28 @@
 }
 
 /* Configurações */
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    background-image: url("images/fundo.png");
+    background-attachment: fixed;
+}
 
+div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+}
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1em 2.5em;
+    padding: 0.5em 2.5em;
     align-items: center;
     background-color: green;
     position: fixed;
     z-index: 999;
 }
 
-body {
-    font-size: 100%;
-    font-family: sans-serif;
-    background-image: url("images/wp3309974.jpg");
-}
 
-div, section, header, span, ul, li, a {
-    box-sizing: border-box;
-}
 
 #logo {
     width: 100%;
@@ -65,17 +66,24 @@ section {
 
 #inicio img{
     object-fit: cover;    
-    width: 6rem 0 0 0;
+    width: 100%;
     aspect-ratio: 16/9;
 }
 
 #sobrenos {
-    background-color: #59c9a502;
+    background-color: #59c9a500;
     color: #ffffff;
     text-align: center;
+    padding: 120px 40px 40px 40px;
+    font-size: 25px;
 }
 
-#produtos {
+#sobrenos h3 {
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 40px;
+}
+
+#profiles {
     background-color: #709674;
     color: #fff;
 }
