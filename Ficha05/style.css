@@ -59,6 +59,14 @@ section {
 
 #inicio {
     background-color: green;
+    padding: 6rem 0 0 0;
+    height: auto;
+}
+
+#inicio img{
+    object-fit: cover;    
+    width: 6rem 0 0 0;
+    aspect-ratio: 16/9;
 }
 
 #sobrenos {
